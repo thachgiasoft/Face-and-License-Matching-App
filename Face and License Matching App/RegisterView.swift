@@ -8,14 +8,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RegisterView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            
+            Button(action: {
+                print("test")
+            }){
+                Text("test")
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RegisterView()
     }
 }
