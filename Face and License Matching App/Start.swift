@@ -32,7 +32,7 @@ struct Start: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: TopView()){
+                NavigationLink(destination: FirstInfo()){
                     ZStack{
                         Rectangle()
                             .fill(Color.blue)
