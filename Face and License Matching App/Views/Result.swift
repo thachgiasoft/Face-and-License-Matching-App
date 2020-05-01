@@ -35,7 +35,7 @@ struct Result: View {
                         .fill(Color.blue)
                         .frame(width:200, height: 50)
                         .cornerRadius(20)
-                    Text("すすむ")
+                    Text("トップへ戻る")
                         .font(.title)
                         .foregroundColor(Color.white)
                 }

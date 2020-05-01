@@ -17,19 +17,14 @@ struct FirstInfo: View {
     var body: some View {
         
             VStack{
-                
-                Spacer()
-                    .frame(height: 150)
-                                
+                Spacer().frame(height: 150)
                 HStack{
                     Image(systemName: "person.circle")
                         .resizable()
                         .frame(width: 90, height: 90)
                         .foregroundColor(Color.gray)
                 }
-                
                 Spacer()
-                
                 HStack{
                     Spacer()
                         .frame(width: 30)
@@ -40,7 +35,6 @@ struct FirstInfo: View {
                         .padding()
                         .foregroundColor(Color.gray)
                 }
-
                 HStack{
                     Spacer()
                         .frame(width: 30)
@@ -51,7 +45,6 @@ struct FirstInfo: View {
                         .padding()
                         .foregroundColor(Color.gray)
                 }
-                
                 HStack{
                     Spacer()
                         .frame(width: 30)
@@ -62,9 +55,7 @@ struct FirstInfo: View {
                         .padding()
                         .foregroundColor(Color.gray)
                 }
-                
                 Spacer()
-                
                     if (userName == "" || userAge == "" || userGender == ""){
                         ZStack{
                             Rectangle()
@@ -88,8 +79,7 @@ struct FirstInfo: View {
                             }
                         }
                     }
-                Spacer()
-                    .frame(height: 60)
+                Spacer().frame(height: 60)
             }
     }
 }

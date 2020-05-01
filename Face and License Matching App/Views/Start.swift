@@ -50,11 +50,15 @@ struct Start: View {
         }
     }
 }
-    
-    
 
-struct ContentView_Previews: PreviewProvider {
+struct Start_Previews: PreviewProvider {
     static var previews: some View {
         Start()
     }
 }
+
+//struct Start_Previews: PreviewProvider {
+//    static var previews: some View {
+//        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+//    }
+//}
